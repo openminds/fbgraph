@@ -6,7 +6,6 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Nicolas Santa"]
-  s.cert_chain = ["/home/nicolas/certs/gem-public_cert.pem"]
   s.date = %q{2010-09-15}
   s.description = %q{A Gem for Facebook Open Graph API}
   s.email = %q{nicolas55ar@gmail.com}
@@ -17,7 +16,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{fbgraph}
   s.rubygems_version = %q{1.3.7}
-  s.signing_key = %q{/home/nicolas/certs/gem-private_key.pem}
   s.summary = %q{A Gem for Facebook Open Graph API}
 
   if s.respond_to? :specification_version then
